@@ -1,0 +1,19 @@
+default:
+    prefix: /
+    resource: '../src/Controller'
+
+api_login_check:
+    path: /api/login
+    controller: App\Controller\SecurityController::getTokenUser
+authentication:
+    path: /authentication
+    methods: ['POST']
+    controller: App\Controller\LoginController::authenticate
+
+authentication_token:
+    path: /authentication_token
+    methods: ['POST']
+
+gesdinet_jwt_refresh_token:
+    path: /token/refresh
+    controller: gesdinet.jwtrefreshtoken::refresh

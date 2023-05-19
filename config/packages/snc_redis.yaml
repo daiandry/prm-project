@@ -1,0 +1,36 @@
+snc_redis:
+    clients:
+        default:
+            type: predis
+            alias: default
+            dsn: redis://localhost
+        doctrine:
+            type: predis
+            alias: doctrine
+            dsn: redis://localhost
+#    doctrine:
+#        metadata_cache:
+#            client: doctrine
+#            entity_manager: default
+#            document_manager: default
+#        result_cache:
+#            client: doctrine
+#            entity_manager: default
+#        query_cache:
+#            client: doctrine
+#            entity_manager: default
+#
+    doctrine:
+        metadata_cache:
+            client: doctrine
+            entity_manager: default          # the name of your entity_manager connection
+            document_manager: default        # the name of your document_manager connection
+        result_cache:
+            client: doctrine
+            entity_manager: [default, read]  # you may specify multiple entity_managers
+        query_cache:
+            client: doctrine
+            entity_manager: default
+        second_level_cache:
+            client: doctrine
+            entity_manager: default
