@@ -1,0 +1,13 @@
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (1, 'La paix et la sécurité durable pour tous');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (2, 'L''energie et l''eau pour tous');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (3, 'La lutte contre la corruption avec tolérance zéro');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (4, 'L''education pour tous');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (5, 'La sante : droit inalienable a tous');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (6, 'L''emploi decent pour tous');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (7, 'L''industrialisation à grande échelle');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (8, 'L''industrie touristique,potentiel de croissance solide');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (9, 'L''autosuffisance alimentaire');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (10, 'La gestion durable et la conservation de nos ressources naturelles');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (11, 'La promotion de l''habitat et la modernisation de madagascar');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (12, 'L''autonomie et la responsabilisation de nos collectivités territoriales décentralisées');
+INSERT INTO public.prm_engagement(id, libelle) OVERRIDING SYSTEM VALUE VALUES (13, 'Le sport, tremplin pour porter haut la fierté nationale');
